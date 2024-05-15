@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- Add h1 in my-app..  -->
+
+<!-- Create a docker file, and then put the following code inside:
+FROM node:lts-iron
+
+WORKDIR /galancedeno_armando_site/
+
+COPY public/ /galancedeno_armando_site/public
+COPY src/ /galancedeno_armando_site/src
+COPY package.json /galancedeno_armando_site/
+
+RUN npm install
+CMD ["npm", "start"]
+This tell docker file what to do.  -->
+
+<!-- Create a docker image
+docker image build -t assignment11-image:latest . -->
+
+<!-- Create a container and this is the part chaging the port
+docker run -dp 7775:3000 --name galancedeno_armando_coding_assignment11 assignment11-image -->
+
+<!-- docker start galancedeno_armando_coding_assignment11
+docker stop galancedeno_armando_coding_assignment11 -->
