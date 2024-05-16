@@ -85,10 +85,10 @@ CMD ["npm", "start"]
 This tell docker file what to do.  -->
 
 <!-- Create a docker image
-docker image build -t assignment11-image:latest . -->
+<!-- docker image build -t galancedeno_armando_assignment11-image:latest . -->
 
 <!-- Create a container and this is the part chaging the port
-docker run -dp 7775:3000 --name galancedeno_armando_coding_assignment11 assignment11-image -->
+docker run -dp 7775:3000 --name galancedeno_armando_coding_assignment11 galancedeno_armando_assignment11-image:latest -->
 
 <!-- docker start galancedeno_armando_coding_assignment11
 docker stop galancedeno_armando_coding_assignment11 -->
